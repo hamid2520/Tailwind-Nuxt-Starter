@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.16.19",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.2",
+    "nuxt-headlessui": "^1.1.4",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.14",
+    "@heroicons/vue": "^2.0.18"
+  }
+}
